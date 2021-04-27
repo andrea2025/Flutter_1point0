@@ -41,7 +41,8 @@ class HelloWorldApp extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child: Row(
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
                   children: [
                     Container(
                       height: 200,
